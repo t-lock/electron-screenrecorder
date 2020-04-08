@@ -1,6 +1,31 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  margin: auto;
-  max-width: 38rem;
-  padding: 2rem;
+  /* fully draggable */
+  -webkit-app-region: drag;
+
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  padding: 2rem 0;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(45, 45, 45, 1) 65%,
+    rgba(78, 78, 78, 1) 100%
+  );
+}
+
+h1 {
+  -webkit-app-region: no-drag;
+
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.2px;
+}
+
+button {
+  -webkit-app-region: no-drag;
+}
+
+video {
+  max-width: 84%;
+  margin: 0 auto;
 }
