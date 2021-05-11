@@ -899,6 +899,11 @@ electron-installer-redhat@^3.0.0:
     word-wrap "^1.2.3"
     yargs "^15.1.0"
 
+electron-is-dev@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/electron-is-dev/-/electron-is-dev-1.2.0.tgz#2e5cea0a1b3ccf1c86f577cee77363ef55deb05e"
+  integrity sha512-R1oD5gMBPS7PVU8gJwH6CtT0e6VSoD0+SzSnYpNm+dBkcijgA+K7VAMHDfnRq/lkKPZArpzplTW6jfiMYosdzw==
+
 electron-notarize@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/electron-notarize/-/electron-notarize-0.1.1.tgz#c3563d70c5e7b3315f44e8495b30050a8c408b91"
@@ -1414,9 +1419,9 @@ homedir-polyfill@^1.0.1:
     parse-passwd "^1.0.0"
 
 hosted-git-info@^2.1.4:
-  version "2.8.8"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
-  integrity sha512-f/wzC2QaWBs7t9IYqB4T3sR1xviIViXJRJTWBlx2Gf3g0Xi5vI7Yy4koXQ1c9OYDGHN9sBy1DQ2AB8fqZBWhUg==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 http-cache-semantics@^4.0.0:
   version "4.1.0"
